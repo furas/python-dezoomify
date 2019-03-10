@@ -3,13 +3,13 @@ import urllib.request
 
 #-----------------------------------------------------------------------
 
-#url = 'http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/index.html'
-
+#url =       'http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/index.html'
 #tiles_url = 'http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/sztabowa_Kreis_Oels.tiles/'
 #level = 4
 #rows = 7
 #cols = 9
 
+#url =      'http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/index.html'
 tiles_url = 'http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/KreisOels.tiles/'
 level = 5
 rows = 8

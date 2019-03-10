@@ -1,13 +1,14 @@
-# dezoomify.py
+Some notes useful for me.
 
+# Polish Python Coder Group (in Polish language)
 
-## Polish Python Coder Group (in Polish language)
+Notes from [old thread about downloading maps](https://pl.python.org/forum/index.php?topic=5073.msg21512) (2014/2015)
 
-[Old thread (2014/2015) about downloading maps](https://pl.python.org/forum/index.php?topic=5073.msg21512)
+Original script: [pobieracz_mapy_wroc.py](https://sites.google.com/site/marekdrwota/pobieracz_mapy_wroc.py)
 
-Script [pobieracz_mapy_wroc.py](https://sites.google.com/site/marekdrwota/pobieracz_mapy_wroc.py)
+(Copy in folder `pobieracz_mapy_wroc`)
 
-Links to maps:
+Maps (zoomify):
 
 - [http://www.bu.uni.wroc.pl/ozk/?lang=pl](http://www.bu.uni.wroc.pl/ozk/?lang=pl)
 
@@ -16,7 +17,7 @@ Links to maps:
 - [http://dk.bu.uni.wroc.pl/midas/manu/tiles//0/03/036/0369/03690/03690015/TileGroup8/6-40-22.jpg](http://dk.bu.uni.wroc.pl/midas/manu/tiles//0/03/036/0369/03690/03690015/TileGroup8/6-40-22.jpg)
 
 
-Using dezoomify:
+# dezoomify.py
 
 - [https://sourceforge.net/projects/dezoomify/](https://sourceforge.net/projects/dezoomify/) (dezoomify-1.4.tar.gz) (2016)
 - [https://github.com/valgur/dezoomify](https://github.com/valgur/dezoomify) (dezoomify-master.zip) (2016)
@@ -25,19 +26,34 @@ Using dezoomify:
 dezoomify.py -b 'http://dk.bu.uni.wroc.pl/midas/manu/tiles//0/03/036/0369/03690/03690015/ImageProperties.xml' output.jpg
 ```
 
+# New maps (2019):
 
-
-## New maps (2019):
-
-Zoomify:
+zoomify:
 
 - [http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499](http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499)
 - [http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70](http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70)
 
 krpano:
 
+- page: [http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/index.html](http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/index.html)
+    - url xml:  [http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/sztabowa_Kreis_Oels.xml/](http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/sztabowa_Kreis_Oels.xml)
+    - url tiles folder: [http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/sztabowa_Kreis_Oels.tiles/](http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/sztabowa_Kreis_Oels.tiles/)
+    - level: 4
+    - rows: 7
+    - cols: 9
 
-### [http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499](http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499)
+- page: [http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/index.html](http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/index.html)
+    - url xml: [http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/KreisOels.xml](http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/KreisOels.xml)
+    - url tiles folder: [http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/KreisOels.tiles/](http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/KreisOels.tiles/)
+    - level: 5
+    - rows: 7
+    - cols: 9
+
+
+# Info: [http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499](http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499)
+
+[http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499](http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499)
+
 
 After digging in HTML/HTTP (using DevTools in Firefox) I found url to `ImageProperties.xml`
 
@@ -64,7 +80,7 @@ dezoomify.py -t 1 -b 'http://kpbc.umk.pl/norestr/mapy/M_4772/files/ImageProperti
 ```
 
 
-### [http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70](http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70)
+# Map Zoomify: [http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70](http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70)
 
 After digging in HTML/HTTP (using DevTools in Firefox) I found url to `ImageProperties.xml`
 
@@ -78,14 +94,15 @@ and after skiping `?noCacheSfx=1551659522092` it works with old dezoomify (using
 dezoomify.py -t 1 -s -b 'http://bc.biblio.olesnica.pl/Content/70/scan425_kreis_oels/ImageProperties.xml' output.jpg
 ```
 
-### Info for old dezoomify
+
+## Info for old dezoomify
 
 [https://sourceforge.net/p/dezoomify/wiki/Troubleshooting/](https://sourceforge.net/p/dezoomify/wiki/Troubleshooting/)
 
 
-# On-line dezoomify (JavaScript):
+## On-line dezoomify (JavaScript):
 
-It can download `zoomify`, `krpano` and many other
+It can download `zoomify`, `krpano` and many other formats
 
 - [http://ophir.alwaysdata.net/dezoomify/dezoomify.html](http://ophir.alwaysdata.net/dezoomify/dezoomify.html)
 - mirror: [http://jk.g6.cz/dezoomify.html](http://jk.g6.cz/dezoomify.html)
