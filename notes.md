@@ -50,7 +50,7 @@ krpano:
     - cols: 9
 
 
-# Info: [http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499](http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499)
+### More: [http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499](http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499)
 
 [http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499](http://fbc.pionier.net.pl/id/oai:kpbc.umk.pl:21499)
 
@@ -80,7 +80,7 @@ dezoomify.py -t 1 -b 'http://kpbc.umk.pl/norestr/mapy/M_4772/files/ImageProperti
 ```
 
 
-# Map Zoomify: [http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70](http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70)
+### More: [http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70](http://bc.biblio.olesnica.pl/dlibra/docmetadata?id=70)
 
 After digging in HTML/HTTP (using DevTools in Firefox) I found url to `ImageProperties.xml`
 
@@ -95,9 +95,11 @@ dezoomify.py -t 1 -s -b 'http://bc.biblio.olesnica.pl/Content/70/scan425_kreis_o
 ```
 
 
-## Info for old dezoomify
+# Info for old dezoomify
 
 [https://sourceforge.net/p/dezoomify/wiki/Troubleshooting/](https://sourceforge.net/p/dezoomify/wiki/Troubleshooting/)
+
+[https://commons.wikimedia.org/wiki/User:F%C3%A6/dezoomify](https://commons.wikimedia.org/wiki/User:F%C3%A6/dezoomify)
 
 
 ## On-line dezoomify (JavaScript):

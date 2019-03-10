@@ -42,6 +42,8 @@ runs version 3 with two urls to test it
 Page URL: [http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/index.html](http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/index.html)
 Tiles URL: [http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/sztabowa_Kreis_Oels.tiles/](http://olesnica.nienaltowski.net/Mapy_powiatu/sztabowa_Kreis_Oels/sztabowa_Kreis_Oels.tiles/)
 
+Page URL: [http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/index.html](http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/index.html)
+Tiles URL: [http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/KreisOels.tiles/](http://olesnica.nienaltowski.net/Mapy_powiatu/KreisOels/KreisOels.tiles/)
 
 
 
